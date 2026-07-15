@@ -11,6 +11,8 @@ int main()
 	printf("Menu: \n");
 	printf("1.Addition");
 	printf("2.Subraction");
+	printf("3.Subraction");
+	printf("4.Division");
 	scanf("%d",&op);
 	if(op==1)
 	{
@@ -19,6 +21,14 @@ int main()
 	else if(op==2)
 	{
 		printf(a-b);
+	}
+	else if(op==3)
+	{
+		printf(a*b);
+	}
+	else
+	{
+		printf(a/b);
 	}
 	return 0;
 }
